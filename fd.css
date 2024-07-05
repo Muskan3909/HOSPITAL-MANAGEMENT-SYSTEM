@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background-image: url('https://www.mission-hospital.org/images/Clinics_and_Centers/Slide58.JPG');
+  display: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.company_address{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 450px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px 8px;
+    box-shadow: 4px 6px 2px rgb(115, 248, 241);
+
+}
+
+.company_address p{
+  font-size: 22px;
+}
+.logo a{
+  text-decoration: none;
+  color: black;
+  text-shadow: 2px 2px 4px rgb(115, 248, 241);
+  animation: linear;
+}
+.footer-left a{
+  text-decoration: none;
+  color: black;
+}
+.footer-left a:hover{
+  color: rgb(5, 0, 0);
+  background-color: rgb(221, 166, 38);
+}
+a:visited{
+  background-color: rgb(16, 247, 235);
+}
+a:active{
+  background-color:darkblue;
+}
+.btn{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  background-color: crimson;
+  padding:6px;
+  border: none;
+  cursor:pointer;
+  font-size: 13px;
+  border-radius: 4px;
+  float: right;
+  width: 5%;
+}
+.footer-left.btn:hover{
+  color:rgb(158, 143, 3);
+  background-color:rgb(223, 245, 201);
+  border: 2px solid black;
+ 
+}
